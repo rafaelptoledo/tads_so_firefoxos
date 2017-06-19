@@ -1,0 +1,96 @@
+#site {
+	width: 1024px;
+	min-height: 600px;
+	margin: 0 auto;
+}
+#cabecalho
+{
+	font-family: verdana;
+	text-align:center;
+	background-image: url(../imagens/firefox-os.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	font-style: italic;
+	height: 280px;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 100%;
+}
+#mconteudo
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial;
+}
+
+#headm
+{
+	text-align:center;
+	font-style: bold;
+	font-size: 50px;
+	font-family: verdana;
+	font-style: bold;
+}
+#menu
+{
+	float: left;
+	padding: 6px;
+	padding-right: 20px;
+  text-align:left;
+	position: fixed;
+  background-color: #EF4D22;
+}
+#conteudo
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 180px;
+	margin-right: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	font-family: arial-black;
+  background-color: white;
+}
+#rodape
+{
+	font-size: 15px;
+	clear: both;
+	text-align: center;
+	font-style: italic;
+  background-color: white;
+}
+ul
+{
+	list-style:none;
+	font-weight: bold;
+}
+li
+{
+	width: 100px;
+}
+li a
+{
+	text-decoration: none;
+	display: block;
+	color: black;
+
+}
+li a:hover
+{
+	background-color: white;
+
+}
+body
+{
+	background-color: #FAAF4F;
+	margin: 0;
+}
+#mcor
+{
+ color:white;
+}
+#img-util {
+	background-image: url("../imagens/firefox-cod.jpg");
+}

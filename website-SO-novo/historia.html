@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firefox SO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <!-- Estrutura site -->
+    <div id="site">
+
+      <!-- Cabeçalho -->
+      <div id="cabecalho">
+      </div>
+
+      <div id="mconteudo">
+
+      <div id="menu">
+
+      <ul>
+        <li >
+          <a href="index.html">
+            Inicial
+          </li>
+        </a>
+        <li id="acess">
+          <a id="mcor"  href="historia.html">
+            História
+          </a>
+        </li>
+        <li>
+          <a href="versoes.html">
+            Versões
+          </a>
+        </li>
+        <li>
+          <a href="prosecontras.html">
+            Vantagens e Desvantagens
+          </a>
+        </li>
+        <li>
+          <a href="utilizacao.html">
+            Utilização
+          </a>
+        </li>
+      </ul>
+      <p id="headm"> </p>
+      </div>
+
+      <!-- Conteudo -->
+      <div id="conteudo">
+        <br>
+        <h1>História</h1>
+          <p>
+            O Firefox OS é um sistema operacional livre desenvolvido pela Mozilla e baseado no navegador da web Firefox.
+             Além de ter a Mozilla como principal responsável, o Firefox Os conta com apoio de outras empresas como a Telefônica e uma vasta
+             comunidade de voluntários em todo o mundo. Este sistema operacional tem como alvo dispositivos móveis, em especial,
+             modelos mais simples e de baixo custo, já que prioriza o baixo consumo de recursos, como processamento e memória RAM.
+            No entanto, é possível encontrá-lo em outros tipos de equipamento, como computadores portáteis de baixo consumo energético.
+             No Brasil, os aparelhos comercializados são o Alcatel One Touch Fire e o LG Fireweb.
+          </p>
+
+          <p>
+            O canal oficial de distribuição de aplicativos é o Marketplace, mas operadoras e terceiros podem criar seu próprio canal de distribuição.
+             Os aplicativos são construídos a partir de padrões abertos da Web em HTML5, CSS e JavaScript. Apesar de utilizar tecnologias da Web para
+             a criação de seus aplicativos, o Firefox OS não exige acesso à Internet para usá-los. Os aplicativos, como jogos, são salvos na memória
+             interna do aparelho e podem ser executados como em um smartphone convencional, a exemplo do Android, iOS e do Windows Phone.
+          </p>
+          <p>
+            Em fevereiro de 2016, numa mensagem enviada aos programadores, a fundação assume os “planos para acabar com o suporte [do sistema operativo]
+             para smartphones, depois do lançamento da versão 2.6 do Firefox OS”. Na mesma nota, explica que “isto significa que o Firefox OS para smartphones
+              não continuará a beneficiar do envolvimento de uma equipa a partir de maio de 2016.
+          </p>
+          <p>
+            A Mozilla também detalha que em consequência desta decisão, já a partir de 29 de março, deixa de aceitar aplicações para Android, tablet e desktop na sua loja.
+             Todas as aplicações que não suportem o Firefox OS serão removidas a partir da mesma altura.
+            A decisão de descontinuar o sistema operativo se deve ao facto de a plataforma nunca ter conseguido despertar a atenção nem de clientes nem de fabricantes.
+          </p>
+
+        <h2>Licenciamento</h2>
+
+          <p>
+            O Firefox OS é um produto comercializado pela Mozilla e que é baseado no projeto Boot to Gecko (B2G). B2G é o codinome do projeto de código aberto e livre mantido
+            pela Mozilla em parceria com fabricantes e desenvolvedores independentes. A diferença entre ambos é que o Firefox OS adiciona ao Boot to Gecko marca, cores e outras
+            características que estão registradas e definidas pela Mozilla.
+          </p>
+
+          <p>A Mozilla impõe restrições para o uso do Firefox OS:</p>
+
+          <p>
+            Adotar dispositivo complacente com open-source: o dispositivo deve atender aos requisitos e restrições das licenças open-source existentes no código-fonte do projeto
+            e encorajar parceiros a se envolverem no projeto, contribuindo com código que pode ser utilizado pela Mozilla.
+
+          <p>
+            Ter os requisitos mínimos de hardware e desempenho definidos pela Mozilla e pela Open Web Device Complicance Review Board.
+          </p>
+
+          <p>
+          </p>
+            Garantir que qualquer mudança feita manterá a compatibilidade com a Web API e os aspectos de privacidade e segurança previamente definidos.
+          </p>
+          <p>
+            Fornecer atualizações por pelo menos 1 ano da data de lançamento
+            Caso um fabricante adote o Boot to Gecko em um dispositivo, a Mozilla reconhece três categorias de licenciamento que variam conforme o atendimento dos requisitos definidos:
+          </p>
+          <p>
+            Boot to Gecko: pode ser usado sem atender a nenhum requisito. Um exemplo de dispositivo que adota esse nível é o Geeksphone Revolution.
+          </p>
+          <p>
+            Powered By: alguns dos requisitos de uso do Firefox OS são atendidos, o que permite ao fabricante anunciar usar a marca Firefox OS, dizer que o dispositivo é um "Firefox OS" e os padrões de cores da marca. Como os requisitos míninos impostos pela Mozilla não precisam ser atendidos,
+            este nível de licenciamento deve cobrir a maior partes dos dispositivos, inclusive dispositivos de baixíssimo custo, tablets, TVs e outros equipamentos.
+          </p>
+          <p>
+            Co Branded: todos os requisitos são atendidos e o aparelho passa a ter a marca dupla: do fabricante e do Firefox OS. Um exemplo de dispositivo é o Alcatel One Touch Fire.
+          </p>
+
+        <h2>Projeto Aberto</h2>
+          <p>
+            O Boot to Gecko é um projeto open-source e livre. É possível obter todas as versões, incluindo anteriores, atual ou em desenvolvimento,
+             a partir do repositório da Mozilla no Git Hub. Além do acesso à implementação, a lista de funcionalidades previstas para implementação está aberta ao público.
+          </p>
+
+        <h2>Arquitetura</h2>
+          <p>A arquitetura Boot2Gecko é composta por três módulos: Gonk, Gecko e Gaia.</p>
+
+          <p>
+            <strong>Gonk</strong> é o "sistema operacional" de baixo nível. Essencialmente é o kernel Linux e a camada de abstração de hardware. O kernel é baseado no kernel da versão open source
+            do Android, o Android Open Source Project (AOSP). O uso de parte do projeto AOSP permite ao Firefox OS usar ferramentas comuns às do desenvolvimento para Android,
+            como o ADB e o fastboot. Outro benefício é o uso de drivers que dão suporte à ampla variedade de dispositivos Android disponíveis no mercado.
+          </p>
+          <p>
+            <strong>Gecko</strong>, neste estão implementados os padrões HTML, CSS, JavaScript. Essa camada é uma versão do mesmo motor de layout utilizado no navedor 
+            Firefox. Ela permite que as interfaces e apps funcionem no próprio Firefox OS e em outros sistemas operacionais nos quais o navegador é utilizado.
+          </p>
+          <p>
+            <strong>Gaia</strong> é a camada da interface gráfica do sistema operacional. Nela está implementado tudo que aparece quando o sistema operacional é carregado.
+             Ou seja, tela de bloqueio, barra de notificações, discador, gerenciador de mensagens de texto, câmera e demais aplicações A interface é totalmente escrita em
+             padrões aberto da Web: HTML, CSS e JavaScript.
+          </p>
+
+          <h2>Desenvolvimento</h2>
+            <p>
+              O desenvolvimento de aplicativos no Firefox OS é simples e muito semelhante com as extensões do navegador Firefox. É necessário um arquivo "manifest" (no formato JSON), sendo este responsável por todas as informações que o aplicativo precisa para poder funcionar: (nome do app, versão, informações do desenvolvedor, APIs utilizados, permissões, etc.). As Apps são basicamente escritas em HTML, JavaScript e CSS, já que o sistema é baseado em tecnologia web.
+            </p>
+            <p>
+              Qualquer desenvolvedor pode submeter seus aplicativos no Marketplace (loja de aplicativos do Firefox OS), bem como distribuí-los em qualquer outros.
+            </p>
+      </div>
+      </div>
+
+      <!-- Rodape -->
+      <div id="rodape">
+        <h3>Criado por grupo Firefox OS</h3>
+      </div>
+
+</div>
+  </body>
+</html>

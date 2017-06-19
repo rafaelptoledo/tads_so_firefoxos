@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firefox SO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <!-- Estrutura site -->
+    <div id="site">
+
+      <!-- Cabeçalho -->
+      <div id="cabecalho">
+      </div>
+
+      <div id="mconteudo">
+
+      <div id="menu">
+
+      <ul>
+        <li >
+          <a href="index.html">
+            Inicial
+          </li>
+        </a>
+        <li>
+          <a href="historia.html">
+            História
+          </a>
+        </li>
+        <li>
+          <a href="versoes.html">
+            Versões
+          </a>
+        </li>
+        <li id="acess">
+          <a id="mcor" href="prosecontras.html">
+            Vantagens e Desvantagens
+          </a>
+        </li>
+        <li>
+          <a href="utilizacao.html">
+            Utilização
+          </a>
+        </li>
+      </ul>
+      <p id="headm"> </p>
+      </div>
+
+      <!-- Conteudo -->
+      <div id="conteudo">
+        <br>
+        <h1>Vantagens e Desvantagens</h1>
+          <p>
+             <strong>Confira os prós e contras dos HOST APPs:</strong>
+           </p>
+          <p>
+             <strong>Prós:</strong>
+          </p>
+          <p>Fácil e rápido de converter, basta unir o Web App já existente ao arquivo Manifest;</p>
+          <p>
+            Funciona muito bem com frameworks já existentes como Django, Rails, entre outros;
+          </p>
+          <p>
+            Ótimo para desenvolvedores que não tem muita experiência com Front-Ends.
+          </p>
+
+          <p>
+            <strong>Contras:</strong>
+          </p>
+          <p>Não existe o botão de voltar como nos navegadores, portanto pode ser necessário ajustes de navegação no aplicativo;</p>
+          <p>
+            A cada ação do usuário é necessário o carregamento da página de forma síncrona, assim como nos navegadores;
+          </p>
+          <p>
+            Utiliza muita banda para carregamento, portanto a rede Wi-fi precisará funcionar muito bem;
+          </p>
+          <p>
+            Não há suporte para funcionamento offline. O cache do navegador ajuda mas não é uma solução confiável;
+          </p>
+          <p>
+            Este tipo de app pode ser considerado simplesmente um link Favorito (como nos navegadores),
+             pois não trará praticamente nenhuma integração com o smartphone, será simplesmente um site em formato de aplicativo;
+          </p>
+          <p>
+            O carregamento é lento em relação aos aplicativos empacotados, o que atrapalha a experiência do usuário.
+          <p>
+
+          <p>
+            Outro tipo de aplicativo suportado é o <strong>PACKAGED APPs</strong>, ou “Aplicativos Empacotados”: este tipo apresenta inúmeras vantagens em relação aos HOST APPs.
+             O empacotamento consiste em criar um arquivo ZIP contento todos os arquivos estáticos do aplicativo (HTML, CSS, imagens, js, etc) e também o arquivo
+             manifest. Confira as vantagens e desvantagens desse tipo de app:
+          </p>
+
+            <strong>Prós:</strong>
+          </p>
+          <p>Não precisa estar hospedado em nenhum servidor do desenvolvedor, o arquivo ZIP ficará hospedado no próprio Marketplace; </p>
+          <p>
+            A experiência do usuário é fantástica em relação ao HOST APPs por conta do rápido carregamento;
+          </p>
+          <p>
+            Todos os arquivos do aplicativo serão baixados e instalados no smarthphone através do arquivo ZIP;
+          </p>
+          <p>Não é necessária nenhuma rede para que o aplicativo funcione;</p>
+          <p>
+            É possível utilizar as Web APIs internas para acessar a câmera, contatos, sockets, gps, bateria, vibração, etc;
+          </p>
+          <p>
+            Como o aplicativo é instalado, dá a sensação de que é nativo do próprio sistema operacional.
+          </p>
+
+          <p>
+            <strong>Contras:</strong>
+          </p>
+          <p>
+            A atualização do aplicativo é monolítica, isto quer dizer que a cada nova atualização, seja ela grande ou não,
+            será necessário baixar novamente o arquivo ZIP por completo, com todos os arquivos;
+          </p>
+          <p>
+            A comunicação com servidores remotos não é tão mais fácil quanto aos HOST APPs;
+          </p>
+          <p>
+            O processo de submissão dos aplicativos são mais restritos por poderem utilizar APIs de controle do dispositivo.
+          </p>
+          <p>
+            Rodam somente onde são suportados, atualmente Firefox OS e no Firefox para Android.
+          </p>
+
+
+          <p>
+            Já o <strong>HYBRID APPs</strong> ou “Aplicativos Híbridos”, tecnicamente seria um HOST APP mas que também consegue funcionar como um PACKAGED APP.
+             Esse tipo pode ser considerado uma junção dos pontos positivos dos 2 tipos anteriores. Confira os prós e contras abaixo:
+          </p>
+          <strong>Prós:</strong>
+          </p>
+          <p>Experiência do usuário fantástica;</p>
+          <p>
+            Continua sendo um Web App podendo servir conteúdos dinâmicos, utilizando AJAX, por exemplo;
+          </p>
+          <p>
+            Ganha em performance pois os arquivos estáticos não precisarão ser carregados pela rede;
+          </p>
+          <p>Pode ser utilizado de certa forma offline, a rede Wi-fi só será utilizada realmente quando for necessária;</p>
+          <p>
+            Fornece a mesma sensação dos PACKAGED APPs de que é nativo ao sistema operacional.
+          </p>
+
+          <p>
+            <strong>Contras:</strong>
+          </p>
+          <p>
+            Nem todas as APIs estarão disponíveis para utilização.
+          </p>
+          <p>
+            Agora que você já conhece todos os tipos de aplicativos suportados, escolha qual é a melhor opção para você.
+          </p>
+          <p>
+            Em relação ao Firefox OS propriamente dito, a experiência é bem intuitiva, mesmo sabendo que existem alguns problemas,
+             os quais já são conhecidos pela Mozilla, portanto para a versão comercial acredito que não haverá muitos problemas.
+             Sobre o desenvolvimento de apps, podemos dizer que é simplesmente incrível. A quantidade de desenvolvedores web que
+             poderão migrar rapidamente para a plataforma é realmente gigante.
+          </p>
+          <p>
+            Além disso, toda essa arquitetura poderá influenciar, em muito pouco tempo, uma geração de desenvolvedores móveis.
+            Mas será importante para a Mozilla a criação de uma estrutura de suporte a esses desenvolvedores, assim como a constante
+            atualização das APIs e também da plataforma. Acredito que o primeiro passo para o sucesso é o suporte pleno das bibliotecas
+            dpara o desenvolvimento de jogos.
+          </p>
+          <p>
+            O ponto negativo desta arquitetura, sem dúvida, é a facilidade com que o código fonte dos aplicativos, escritos em Javascript,
+            podem ser expostos e copiados, mesmo com tecnologia de embaralhamento de código.
+          </p>
+          <p>
+          Um dos diferenciais prometidos pela Mozilla e parceiros, entretanto, diz respeito ao custo dos aparelhos para o consumidor final:
+          a promessa da empresa é focar em mercados emergentes, com preços realmente acessíveis (a partir de US$100). Só nos resta torcer e esperar.
+          </p>
+
+          <div id="img-util">
+          </div>
+
+
+      </div>
+      </div>
+
+      <!-- Rodape -->
+      <div id="rodape">
+        <h3>Criado por grupo Firefox OS</h3>
+      </div>
+
+</div>
+  </body>
+</html>
